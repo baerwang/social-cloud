@@ -1,0 +1,45 @@
+{
+  "name": "scoial",
+  "version": "1.0.0",
+  "description": "scoial-cloud",
+  "author": "baerwang",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "port": "3001"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "element-ui": "^1.4.13",
+    "eslint-plugin-html": "^6.0.0",
+    "js-cookie": "^2.2.1",
+    "mockjs": "^1.1.0",
+    "nuxt": "^2.0.0",
+    "save-dev": "0.0.1-security",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-quill-editor": "^3.0.6",
+    "vue-quill-editor-upload": "^1.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-vue": "^6.2.1"
+  },
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "license": "ISC"
+}
