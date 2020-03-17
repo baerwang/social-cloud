@@ -1,0 +1,20 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: social-recruit
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.106:3306/social_recruit?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用ip地址，ip地址从host里面找

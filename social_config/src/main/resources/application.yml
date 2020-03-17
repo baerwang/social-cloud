@@ -1,0 +1,23 @@
+server:
+  port: 9066
+spring:
+  application:
+    name: social-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/baerwang/SocialConfigRepo.git
+      discovery:
+        enabled: true # 表示开启通过服务名来访问config-server
+      fail-fast: true # 启动失败时能够快速响应
+    bus:
+      trace:
+        enabled: true  # 开启消息跟踪
+  rabbitmq:
+    host: 192.168.1.106
+management:  # 暴露触发消息总线的地址
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

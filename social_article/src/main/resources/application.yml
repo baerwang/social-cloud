@@ -1,0 +1,26 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: social-article
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.106:3306/social_article?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+  redis:
+    host: 192.168.1.106
+  data:
+    mongodb:
+      host: 192.168.1.106
+      database: recruitdb
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用ip地址，ip地址从host里面找

@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      name: social-user
+      profile: dev
+      label: master
+      uri: http://192.168.1.106:9066
+  application:
+    name: social-user

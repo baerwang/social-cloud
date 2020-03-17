@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/social_article/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_gathering/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_qa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_recruit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_spit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social_web/src/main/java" charset="UTF-8" />
+  </component>
+</project>
